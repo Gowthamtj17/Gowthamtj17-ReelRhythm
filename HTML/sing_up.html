@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/stylesheet.css">
+    <title>SingUp</title>
+    <script src="/JavaScript/script.js"></script>
+    <!-- VANTA WAVES dependencies -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+
+
+    
+</head>
+<body>
+    <div class="spotstar" id="vanta-bg">
+        
+        <div class="navbar">
+            
+            <div id="navtitle"><h2 class="title">ReelRhythm</h2></div>
+        </div>
+        <div class="content">
+            <div class="login-container" style="margin-bottom: 3%;">
+                <form action="javascript:void(0);" class="login-form">
+                    <img src="/HTML/Media/enroll.png" alt="Logo" class="logo" >
+                    <table class="singup_table">
+                        <tr>
+                            <td ><input type="text" name="name" placeholder="Name" class="singup_input" required ></td>
+                            <td ><input type="text" name="username" placeholder="Userame" class="singup_input"  required ></td>
+                        </tr>
+                        <tr>
+                            <td ><input type="text" name="phone_number" placeholder="Phone Number" class="singup_input" required ></td>
+                            <td ><input type="text" name="email_address" required placeholder="Email Address" class="singup_input"></td>
+                        </tr>
+                        <tr>
+                            <td ><input type="text" name="creat_password" placeholder="Create Password" class="singup_input"  required ></td>
+                            <td ><input type="text" name="conform_password" placeholder="Conform Password" class="singup_input" required ></td>
+                        </tr>
+                    </table>
+            
+                    
+                    <button type="submit" onclick="get_otp()" type="button" style="width: 150px;" class="button_2color"> Get OTP</button>
+                    <p style="font-size: 1.2rem;font-weight: bold;margin-top:10% ;">Back to Login? <a href="/index.html">Click Here</a></p>
+                </form>
+        </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>

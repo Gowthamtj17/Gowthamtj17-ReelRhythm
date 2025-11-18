@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Play</title>
+
+    <link rel="stylesheet" href="/CSS/stylesheet.css">
+    <link rel="stylesheet" href="/CSS/movie-stylesheet.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- JS -->
+    <script defer src="/JavaScript/script.js"></script>
+    <script defer src="/JavaScript/js1.js"></script>
+    <script src="/JavaScript/movie_data.js"></script>
+</head>
+
+<body>
+    <div class="ReelRhythm-movies">
+
+        <!-- Navbar -->
+        <div class="navbar">
+            <!-- Menu Button -->
+            <span class="user-icon" onclick="openSidenav()"><i class="fa-solid fa-bars-staggered"></i></span>
+
+            <!-- Search -->
+            <div class="search">
+                <form class="search-container" role="search" id="search-form">
+                    <input type="text" id="search-input" class="search-input" placeholder="Search for a movie..."
+                        aria-label="Search for a movie" />
+                    <button type="submit" class="search-button">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+
+            <!-- Title -->
+            <div id="navtitle">
+                <h2 class="title">ReelRhythm</h2>
+            </div>
+        </div>
+
+        <!-- Side Navigation -->
+        <div id="sidenav" class="sidenav">
+            <span class="closebtn" onclick="closeSidenav()"><i class="fa-regular fa-circle-xmark"></i></span>
+            <div id="sidenav-links"></div>
+        </div>
+
+        <!-- Overlay for Mobile -->
+        <div id="overlay" class="overlay" onclick="closeSidenav()"></div>
+    </div>
+    <!-- Movie Player -->
+    <div class="movie-play movie-container">
+        <div class="nav-buttons">
+            <button class="btn-bn btn-left" onclick="goBack()">
+                <i class="fa-solid fa-circle-chevron-left"></i>
+            </button>
+        </div>
+        <h1 id="movie-title"></h1>
+        <p class="meta" id="movie-type-year"></p>
+
+        <div class="video-wrapper">
+            <iframe id="movie-video" src=""
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <p class="description" id="movie-description"></p>
+        <div class="movie-section">
+            <div class="section-header" style="margin-top: 0px;">
+                <h2 class="section-title" style="margin-top: 0px;">Related Movies</h2>
+            </div>
+            <div class="movie-row" id="related-movies"></div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+
+            <div class="social-icons">
+                <div class="bottom-text">
+                    © 2025 ReelRhythm | Crafted by Gowtham TJ |
+                </div>
+                <a href="https://www.linkedin.com/in/gowtham-tj17" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="https://github.com/Gowthamtj17" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

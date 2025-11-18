@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Category</title>
+    <link rel="stylesheet" href="/CSS/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/CSS/movie-stylesheet.css">
+    <script src="/JavaScript/script.js"></script>
+    <script src="/JavaScript/js1.js"></script>
+    <script src="/JavaScript/movie_data.js"></script>
+</head>
+
+<body>
+    <div class="ReelRhythm-category">
+
+        <!-- Navbar -->
+        <div class="navbar">
+            <!-- Menu Button -->
+            <span class="user-icon" onclick="openSidenav()"><i class="fa-solid fa-bars-staggered"></i></span>
+
+            <!-- Search -->
+            <div class="search">
+                <form class="search-container" role="search" id="search-form">
+                    <input type="text" id="search-input" class="search-input" placeholder="Search for a movie..."
+                        aria-label="Search for a movie" />
+                    <button type="submit" class="search-button">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+
+            <!-- Title -->
+            <div id="navtitle">
+                <h2 class="title">ReelRhythm</h2>
+            </div>
+        </div>
+
+        <!-- Side Navigation -->
+        <div id="sidenav" class="sidenav">
+            <span class="closebtn" onclick="closeSidenav()"><i class="fa-regular fa-circle-xmark"></i></span>
+            <div id="sidenav-links"></div>
+        </div>
+
+        <!-- Overlay for Mobile -->
+        <div id="overlay" class="overlay" onclick="closeSidenav()"></div>
+
+    </div>
+
+    <!-- Page Content -->
+
+    <div id="main" class="movie-container">
+        <div class="nav-buttons">
+            <button class="btn-bn btn-left" onclick="goBack()">
+                <i class="fa-solid fa-circle-chevron-left"></i>
+            </button>
+            <button class="btn-bn btn-right" onclick="goNext()">
+                <i class="fa-solid fa-circle-chevron-right"></i>
+            </button>
+        </div>
+
+        <header>
+            <h1 id="category-title">Category</h1>
+        </header>
+
+        <div class="movie-grid" id="category-container"></div>
+    </div>
+    
+
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SingUp_Verification</title>
+    <link rel="stylesheet" href="/CSS/stylesheet.css">
+    <script src="/JavaScript/script.js"></script>
+    <!-- VANTA WAVES dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="spotstar">
+        <div class="navbar">
+
+            <div id="navtitle"><h2 class="title">ReelRhythm</h2></div>
+        </div>
+        <div class="content">
+            <div class="login-container">
+                <form action="" method="post" class="login-form">
+
+                    <img src="/HTML/Media/reset-password.png" alt="Logo" class="logo">
+
+                    <div class="sinup_verification_table">
+                        <input type="text" name="Otp" placeholder="Enter OTP" class="verification_table_input" required>
+                        <p style="font-size:1rem; font-weight:bold; margin-bottom:0; margin-left:10px;">
+                            Resend OTP?
+                            <button type="button" id="resend-otp" onclick="resend_otp()" class="Resend_otp">Click
+                                Here</button>
+                        </p>
+
+                        <button class="button_2color" type="button" onclick="verifyOTP()">Verify</button>
+                        <p style="font-size: large;font-weight: bold;margin-top: 55%;">Back to SingUp? <a
+                                href="/HTML/sing_up.html">Click Here</a></p>
+                    </div>
+
+
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
