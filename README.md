@@ -1,10 +1,11 @@
-🎬 ReelRhythm – Movie OTT Web Application
+<h1>🎬 ReelRhythm – Movie OTT Web Application</h1>
 
 ReelRhythm is a modern, responsive OTT-style web application designed to showcase a sleek movie-browsing interface. Developed using HTML, CSS, and JavaScript, the project focuses on clean UI design, smooth user interaction, and a mobile-first layout.
 Movies are presented with high-quality visuals, and video playback is integrated through embedded YouTube content to simulate a streaming experience.
 
-🚀 Features
-🎥 OTT-Style User Interface
+<h2>🚀 Features</h2>
+
+<h3>🎥 OTT-Style User Interface</h3>
 
 1) Stylish layout
 
@@ -12,7 +13,7 @@ Movies are presented with high-quality visuals, and video playback is integrated
 
 3) Smooth hover effects and interactive UI elements
 
-▶️ Video Playback
+<h3>▶️ Video Playback</h3>
 
 1) Integrated video player using YouTube embeds
 
@@ -20,7 +21,7 @@ Movies are presented with high-quality visuals, and video playback is integrated
 
 3) Designed to simulate OTT-style interaction flows
 
-📱 Fully Responsive Design
+<h3>📱 Fully Responsive Design</h3>
 
 1) Built with a mobile-first approach
 
@@ -28,7 +29,7 @@ Movies are presented with high-quality visuals, and video playback is integrated
 
 3) Adaptive grid and flexible layouts
 
-⚡ Lightweight & Efficient
+<h3>⚡ Lightweight & Efficient</h3>
 
 1) Pure HTML, CSS, and JavaScript
 
@@ -36,7 +37,7 @@ Movies are presented with high-quality visuals, and video playback is integrated
 
 3) Ideal for showcasing frontend development capabilities
 
-☁️ Deployed on Netlify
+<h3>☁️ Deployed on Netlify</h3>
 
 1) Reliable hosting with global CDN
 
@@ -44,7 +45,7 @@ Movies are presented with high-quality visuals, and video playback is integrated
 
 3) Automatic HTTPS and continuous deployment
 
-🛠️ Tech Stack
+<h3>🛠️ Tech Stack</h3>
 
 | Technology               | Purpose                             |
 | ------------------------ | ----------------------------------- |
@@ -54,7 +55,7 @@ Movies are presented with high-quality visuals, and video playback is integrated
 | **Netlify**              | Deployment and hosting              |
 
 
-🚧 Future Enhancements
+<h3>🚧 Future Enhancements</h3>
 
 1) Search and filter functionality
 
@@ -63,11 +64,11 @@ Movies are presented with high-quality visuals, and video playback is integrated
 3) Dark/Light theme support
 
 
-🔗 Live Demo
+<h3>🔗 Live Demo</h3>
 
     https://reelrhythm.netlify.app
 
-🙌 Acknowledgements
+<h3>🙌 Acknowledgements</h3>
      
   1) Video playback powered by YouTube embed integration
 
